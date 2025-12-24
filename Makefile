@@ -1,9 +1,9 @@
 all: build run
 
 build:
-	cc -std=c99 -Wall hello_world.c -o hello_world
+	cc -std=c99 -Wall main.c -o bin
 
 run:
-	./hello_world
+	./bin
 
 .PHONY: all build run
